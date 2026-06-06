@@ -2,7 +2,6 @@
     "webhook_global": "https://n8n.hivecloud.com.br/webhook/133279a4-6c4d-4b4e-9e58-31121ab0b748",
     "remove_elements_global": ["head","style","iframe", "script", "noscript", "svg"],
     "storage_type": "s3",
-    "schedule": "0 11,17 * * ? *",
     "storage_config": {
       "file": {
         "path": "./data"
@@ -137,6 +136,14 @@
         "webhook": null,
         "remove_elements": ["#menu-container",".menu-container", "footer", ".footer"],
         "include_elements": [".artigo"],
+        "enable_screenshot": true
+      },
+      {
+        "url": "https://dfe-portal.svrs.rs.gov.br/CFF/ClassificacaoTributaria",
+        "active": true,
+        "webhook": null,
+        "remove_elements": ["#menu-container",".menu-container", "footer", ".footer"],
+        "include_elements": [".corpo"],
         "enable_screenshot": true
       }
     ]
