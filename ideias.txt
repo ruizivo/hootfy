@@ -1,0 +1,61 @@
+    
+    ter mais configuraçoes
+    armazenar reports ate um limite... configurar qnts manter por site
+
+
+
+
+
+    
+    "report_config": {
+      "output_dir": "./reports",
+      "template": "default",
+      "max_history": 10,
+      "compress_old_reports": true
+    },
+    "notification_config": {
+      "email": {
+        "enabled": true,
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": 587,
+        "smtp_user": "your-email@gmail.com",
+        "smtp_pass": "your-app-password",
+        "recipients": ["recipient@example.com"]
+      },
+      "slack": {
+        "enabled": false,
+        "webhook_url": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+      }
+    },
+    "logging": {
+      "level": "info",
+      "file": "./logs/hootfy.log",
+      "max_size": "10m",
+      "max_files": 5
+    }
+
+
+
+
+
+
+    urls
+
+
+
+    https://www.nfe.fazenda.gov.br/portal/principal.aspx 
+
+    https://dfe-portal.svrs.rs.gov.br/Cte/Avisos
+    https://dfe-portal.svrs.rs.gov.br/Cte/Servicos
+    https://dfe-portal.svrs.rs.gov.br/Cte/Noticias
+    https://dfe-portal.svrs.rs.gov.br/Cte/Documentos
+
+    https://dfe-portal.svrs.rs.gov.br/Mdfe/Avisos
+    https://dfe-portal.svrs.rs.gov.br/Mdfe/Servicos
+    https://dfe-portal.svrs.rs.gov.br/Mdfe/Noticias
+    https://dfe-portal.svrs.rs.gov.br/Mdfe/Documentos
+
+    https://dfe-portal.svrs.rs.gov.br/Nfe/Avisos
+    https://dfe-portal.svrs.rs.gov.br/Nfe/Servicos
+    https://dfe-portal.svrs.rs.gov.br/Nfe/Noticias
+    https://dfe-portal.svrs.rs.gov.br/Nfe/Documentos 
